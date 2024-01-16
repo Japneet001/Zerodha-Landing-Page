@@ -1,0 +1,129 @@
+html,body{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+body{
+    color: rgba(66, 66, 66, 1);
+    padding-top: 65px;
+    min-width: 350px;
+    margin: 0px;
+}
+
+/* nav{
+    display: block;
+} */
+
+/* main{
+    padding: 65px;
+} */
+
+h5{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.nav-bar{
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    box-shadow: 2px 1px 2px rgba(238, 238, 238, 1);
+    box-sizing: border-box;
+    perspective: 600px;
+    padding: 0px 20px;
+}
+
+.logo{
+    margin-top: 10px;
+    width:150px;
+    height: auto;
+}
+
+.nav-bar-links{
+    padding: 0px;
+    margin: 0px;
+    text-align: right;
+    justify-content: space-between;
+    /* float: right; */
+    /* align-items: right; */
+}
+.nav-bar-links a{
+    color: rgba(102, 102, 102, 1);
+    padding: 20px;
+    /* font-size: 14.4px; */
+    text-decoration: none;
+}
+
+.no-bullets{
+    list-style-type: none;
+    display: flex;
+}
+
+.fa .fa-bars{
+    font-size:36px; 
+    color: rgba(102, 102, 102, 1);
+}
+
+.main_landing{
+    margin: 42.4px 0px 0px;
+    padding: 0px 20px 120px;
+}
+
+.container{
+    text-align:center;
+    margin: 0px 61.6667px;
+}
+
+.main_image{
+    width:600px;
+    margin: 0px 0px 60px;
+}
+
+.landing_heading{
+    font-size: 44px;
+}
+
+.landing_subheading{
+    font-size: 20px;
+    margin: 10px 0px 20px;
+}
+
+.btn{
+    background-color: rgba(56, 126, 209, 1);
+    border: 1px;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 1);
+    margin: 25px 0px 0px;
+    padding: 10px 30px;
+    font: 19.2px "Inter", serif;
+}
+
+.marketing{
+    display: flex;
+    padding: 100px 20px 120px;
+}
+
+.largest-stock-broker_heading{
+    font-size: 32px;
+    margin: 0px 0px 20px;
+}
+
+.largest-stock-broker_content{
+    margin: 16px 0px 15px
+
+}
+
+
+
+#largest-stock-broker{
+    width: 500px;
+}
