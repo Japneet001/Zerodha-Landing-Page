@@ -27,7 +27,6 @@ Welcome to the Zerodha Landing Page Project! This project is a recreation of the
   <a href="https://www.w3schools.com/css/"> <img src="https://img.icons8.com/color/70/000000/css3.png" alt="CSS" /></a>
   <a href="https://www.w3schools.com/js/"><img src="https://img.icons8.com/color/70/000000/javascript--v1.png" alt="JS" /></a>
 </p>
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -35,12 +34,7 @@ Welcome to the Zerodha Landing Page Project! This project is a recreation of the
 
 ### Live Project -- [https://japneet001.github.io/Zerodha-Landing-Page/](https://japneet001.github.io/Zerodha-Landing-Page/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
-
 
 <h2>Project Admin⚡</h2>
 
@@ -51,3 +45,5 @@ Welcome to the Zerodha Landing Page Project! This project is a recreation of the
 </td>
 </tr>
 </table>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
