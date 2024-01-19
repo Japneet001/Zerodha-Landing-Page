@@ -1,99 +1,294 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Zerodha Landing Page</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link rel="stylesheet" href="style.css">
+    <title>Zerodha Landing Page</title>
 </head>
-<body>
 
+<body>
+    <!-- Header section containing the navigation bar -->
     <header>
-        <nav class="nav-bar">
+        <nav class="navbar">
             <div class="logo">
-                <img src="./assests/logo.svg" alt="Zerodha Logo" class="logo">
+                <a href="/">
+                    <img class="logo-img" src="./assests/logo.svg" alt="Zerodha logo" />
+                </a>
             </div>
-            <div class="nav-bar-links">
-                <ul class="no-bullets">
-                    <li>
-                        <a href="#">Signup</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Products</a>
-                    </li>
-                    <li>
-                        <a href="#">Pricing</a>
-                    </li>
-                    <li>
-                        <a href="#">Support</a>
-                    </li>
-                    <li>
-                        <!-- hamburger logo -->
-                        <a href="#"><i class="fa fa-bars"></i></a>
-                    </li>
+            <div class="link" role="navigation">
+                <ul class="navbar-links">
+                    <li><a class="nav-links" href="https://signup.zerodha.com">Signup</a></li>
+                    <li><a class="nav-links" href="https://zerodha.com/about/">About</a></li>
+                    <li><a class="nav-links" href="https://zerodha.com/products/">Products</a></li>
+                    <li><a class="nav-links" href="https://zerodha.com/pricing/">Pricing</a></li>
+                    <li><a class="nav-links" href="https://support.zerodha.com">Support</a></li>
+                    <li><img src="https://static.thenounproject.com/png/3169290-200.png" width="60"></li>
                 </ul>
-              </div>
+            </div>
         </nav>
     </header>
 
+
+    <!-- Main content section of the webpage -->
     <main>
-        <section class="main_landing">
-            <!-- Invest  -->
-            <div class="container">
-                <img src="./assests/stocks.png" alt="Stocks Photo" class="main_image">
-                <h1 class="landing_heading">Invest in everything</h1>
-                <h5 class="landing_subheadding">Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
-                <input class="btn" type="button" value="Sign up now">
-            </div>
+        <!-- Homepage content with sections for investment and marketing -->
+        <div class="homepage">
 
-        </section>
+            <!-- Section for promoting investment -->
+            <section class="main-landing text-center">
+                <div class="container1">
+                    <img class="landing-image" src="./assests/stocks.png" alt="Zerodha, no. 1 stock broker in India">
+                    <h1 class="landing-heading">Invest in everything</h1>
+                    <h5 class="landing-subheading">Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
+                    <a href="#" class="button" id="accop_link">Sign up now</a>
+                </div>
+            </section>
 
-        <!-- largest-stock-broker -->
-        <section class="marketing">
-            <div>
-                <img src="./assests/largest-stock-broker.svg" alt="largest-stock-broker" id="largest-stock-broker">
-            </div>
-            <div>
-                <h2 class="largest-stock-broker_heading">Largest stock broker in India</h2>
-                <p class="largest-stock-broker_content">1+ Crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
-                <table class="services">
-                    <tr>
-                        <td>
-                            <li>Futures and Options</li>
-                        </td>
-                        <td>
-                            <li>Stocks & IPOs</li>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <li>Commodity derivatives</li>
-                        </td>
-                        <td>
-                            <li>Direct mutual funds</li>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <li>Currency derivatives</li>
-                        </td>
-                        <td>
-                            <li>Bonds and Govt. Securities</li>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </section>
+            <!-- Marketing section highlighting Zerodha as the largest stock broker -->
+            <section class="marketing">
+                <div class="container2">
+                    <div class="Largest-Stock-Broker text-center">
+                        <img class="img-margin" src="./assests/largest-stock-broker.svg" alt="" />
+                    </div>
+                    <div class="marketing-content">
+                        <h2 class="marketing-heading">Largest stock broker in India</h2>
+                        <p class="marketing-description"> 1.3+ Crore Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:
+                        </p>
+                        <div class="options">
+                            <div class="list">
+                                <ul class="list-items">
+                                    <li>Futures and Options</li>
+                                    <li>Commodity derivatives</li>
+                                    <li>Currency derivatives</li>
+                                </ul>
+                            </div>
+                            <div class="list">
+                                <ul class="list-items">
+                                    <li>Stocks &amp; IPOs</li>
+                                    <li>Direct mutual funds</li>
+                                    <li>Bonds and Govt. Securities</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="press-strip">
+                            <a href="#"><img width="528" src="./assests/press-logos.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <!-- The Zerodha Universe -->
-        <!-- Unbeatable pricing -->
-        <!-- Free and open market education -->
-        <!-- Open a Zerodha account -->
-        <!-- Footer -->
+            <!-- Ecosystem Section -->
+            <section class="ecosystem">
+                <div class="container3">
+                    <div class="ecosystem-content">
+                        <div class="ecosystem-text">
+                            <h2>Trust with confidence</h2>
+                            <div class="why-us-section">
+                                <h4>Customer-first always</h4>
+                                <p>That's why 1.3+ crore customers trust Zerodha with ₹3.5+ lakh crores worth of equity investments.</p>
+                            </div>
+                            <div class="why-us-section">
+                                <h4>No spam or gimmicks</h4>
+                                <p>No gimmicks, spam, "gamification", or annoying push notifications. High-quality apps that you use at your pace, the way you like.</p>
+                            </div>
+                            <div class="why-us-section">
+                                <h4>The Zerodha universe</h4>
+                                <p>Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs.</p>
+                            </div>
+                            <div class="why-us-section">
+                                <h4>Do better with money</h4>
+                                <p>With initiatives like <a class="ecosystem-text-link" href="https://support.zerodha.com/category/trading-and-markets/kite-features/nudges/articles/what-is-nudge" target="_blank">Nudge</a> and <a class="ecosystem-text-link" href="https://support.zerodha.com/category/console/profile/killswitch/articles/what-is-the-kill-switch" target="_blank">Kill Switch</a>, we don't just facilitate transactions but actively help you do better with your money.</p>
+                            </div>
+                        </div>
+
+                        <div class="ecosystem-image">
+                            <div class="text-center">
+                                <a href="/products"><img class="ecosystem-img" src="./assests/ecosystem.png" alt="The Zerodha Universe" /></a>
+                            </div>
+                            <p class="text-center">
+                                <a class="ecosystem-text-link ecosystem-img-link" href="/products">Explore our products -></a>
+                                <a class="ecosystem-text-link ecosystem-img-link" href="https://kite-demo.zerodha.com">Try Kite demo -></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Unbeatable pricing -->
+            <section class="pricing">
+                <div class="container4">
+                    <div class="pricing-content around">
+                        <div class="pricing-content-text">
+                            <h2>Unbeatable pricing</h2>
+                            <p> We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.</p>
+                            <p><a class="pricing-link" href="/pricing">See pricing -></a></p>
+                        </div>
+                        <div class="pricing-content-table">
+                            <div class="pricing-content-table-text">
+                                <div class="price-table text-center">
+                                    <div class="pricing-box">
+                                        <h1>&#8377;0</h1>
+                                        <p>Free equity delivery and direct mutual funds</p>
+                                    </div>
+                                </div>
+                                <div class="price-table text-center">
+                                    <div class="pricing-box">
+                                        <h1>&#8377;20</h1>
+                                        <p>Intraday and F&O</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- open free education -->
+            <section class="free-education">
+                <div class="container5">
+                    <div class="free-education-content">
+                        <div class="free-education-content-image">
+                            <a href="https://zerodha.com/varsity"><img class="img-margin" src="./assests/index-education.svg" /></a>
+                        </div>
+                        <div class="free-education-content-text">
+                            <h4>Free and open market education</h4>
+                            <p class="free-education-para1">Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.</p>
+                            <a class="free-education-link" href="https://zerodha.com/varsity">Varsity -></a>
+                            <p class="free-education-para2">TradingQ&amp;A, the most active trading and investment community in India for all your market related queries.</p>
+                            <a class="free-education-link" href="https://tradingqna.com">TradingQ&amp;A -></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Open a Zerodha account -->
+            <section class="Zerodha text-center">
+                <div class="container6">
+                    <h2>Open a Zerodha account</h2>
+                    <p class="text-grey text-med">Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&amp;O trades.</p>
+                    <a class="button" href="https://zerodha.com/open-account/">Sign up now</a>
+                </div>
+            </section>
+        </div>
     </main>
+
+
+
+    <!-- Footer section containing various information and links -->
+    <footer id="footer">
+        <div class="container7">
+            <!-- First part of the footer with company information and social links -->
+            <div class="footer1 normal">
+                <div class="three-col">
+                    <div class="footer-logo">
+                        <img class="footer-img" src="./assests/logo.svg" alt="logo" />
+                    </div>
+                    <div class="copyright-information">
+                        <p class="copyright text-grey">&copy; 2010 - 2024, Zerodha Broking Ltd.</p>
+                        <p class="copyright text-grey">All rights reserved.</p>
+                    </div>
+                    <ul class="social">
+                        <li><a target="_blank" href="https://twitter.com/zerodhaonline"><img class="twitter-logo" src="./assests/x-twitter.svg" alt="Twitter Account"></a></li>
+                        <li><a target="_blank" href="https://facebook.com/zerodha.social"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://instagram.com/zerodhaonline/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="https://linkedin.com/company/zerodha"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="https://t.me/zerodhain"><i class="fa fa-telegram"></i></a></li>
+                        <li><a target="_blank" href="https://www.youtube.com/@zerodhaonline"><img class="youtube-logo" src="./assests/youtube.svg" alt="youtube"></a></li>
+                    </ul>
+                </div>
+                <!-- Second, third, and fourth columns with different sets of links -->
+                <div class="three-col">
+                    <!-- Company-related links -->
+                    <ul class="list-style">
+                        <li class="nav-head">Company</li>
+                        <li><a class="nav-lists" href="https://zerodha.com/about/">About</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/products/">Products</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/pricing/">Pricing</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/refer/">Referral programme</a></li>
+                        <li><a class="nav-lists" href="https://careers.zerodha.com">Careers</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.tech">Zerodha.tech</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/media/">Press &amp; media</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/cares/">Zerodha Cares &#40;CSR&#41;</a></li>
+                    </ul>
+                </div>
+                <!-- Support-related links -->
+                <div class="three-col">
+                    <ul class="list-style">
+                        <li class="nav-head">Support</li>
+                        <li><a class="nav-lists" href="https://zerodha.com/contact/">Contact us</a></li>
+                        <li><a class="nav-lists" href="https://support.zerodha.com">Support portal</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/z-connect/">Z-Connect blog</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/charges/">List of charges</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/resources/">Downloads &amp; resources</a></li>
+                        <li><a class="nav-lists" href="/videos">Videos</a></li>
+                        <li><a class="nav-lists" href="https://stocks.zerodha.com">Market overview</a></li>
+                        <li><a class="nav-lists" target="_blank" href="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/how-do-i-create-a-ticket-at-zerodha">How to file a complaint?</a></li>
+                        <li><a class="nav-lists" target="_blank" href="https://support.zerodha.com/category/your-zerodha-account/your-profile/ticket-creation/articles/track-complaints-or-tickets">Status of your complaints</a></li>
+                    </ul>
+                </div>
+                <!-- Account-related links -->
+                <div class="three-col">
+                    <ul class="list-style">
+                        <li class="nav-head">Account</li>
+                        <li><a class="nav-lists" href="https://zerodha.com/open-account/">Open an account</a></li>
+                        <li><a class="nav-lists" href="https://zerodha.com/fund-transfer/">Fund transfer</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Second part of the footer with legal and risk information -->
+            <div class="footer2 smallprint">
+
+                <!-- Copyright and legal information -->
+                <p class="footer-para"> Zerodha Broking Ltd.: Member of NSE, BSE​ &amp;​ MCX &ndash; SEBI Registration no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha Broking Ltd. &ndash; SEBI Registration no.: IN-DP-431-2019 Commodity Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001 &ndash; SEBI Registration no.: INZ000038238 Registered Address: Zerodha Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any complaints pertaining to securities broking please write to <a class="footer-email" href="#" target="_blank">complaints@zerodha.com</a>, for DP related to <a class="footer-email" href="#" target="_blank">dp@zerodha.com</a>. Please ensure you carefully read the Risk Disclosure Document as prescribed by SEBI | ICF </p>
+
+                <!-- Information on filing complaints and online dispute resolution -->
+                <p class="footer-para"> Procedure to file a complaint on <a class="footer-link" href="https://scores.gov.in/scores/Welcome.html" target="_blank"> SEBI SCORES</a>: Register on SCORES portal. Mandatory details for filing complaints on SCORES: Name, PAN, Address, Mobile Number, E-mail ID. Benefits: Effective Communication, Speedy redressal of the grievances </p>
+
+                <!-- Link to Smart Online Dispute Resolution -->
+                <p class="footer-para"><a href="https://smartodr.in/" class="footer-link" target="_blank">Smart Online Dispute Resolution</a></p>
+
+                <!-- Risk warning for investments in securities market -->
+                <p class="footer-para"> Investments in securities market are subject to market risks; read all the related documents carefully before investing. </p>
+
+                <!-- Important notices for investors -->
+                <p class="footer-para"> Attention investors: 1&#41; Stock brokers can accept securities as margins from clients only by way of pledge in the depository system w.e.f September 01, 2020. 2&#41; Update your e-mail and phone number with your stock broker / depository participant and receive OTP directly from depository on your e-mail and/or mobile number to create pledge. 3&#41; Check your securities / MF / bonds in the consolidated account statement issued by NSDL/CDSL every month.</p>
+
+                <!-- Investor education and protection information -->
+                <p> "Prevent unauthorised transactions in your account. Update your mobile numbers/email IDs with your stock brokers. Receive information of your transactions directly from Exchange on your mobile/email at the end of the day. Issued in the interest of investors. KYC is one time exercise while dealing in securities markets - once KYC is done through a SEBI registered intermediary &#40;broker, DP, Mutual Fund etc.&#41;, you need not undergo the same process again when you approach another intermediary." Dear Investor, if you are subscribing to an IPO, there is no need to issue a cheque. Please write the Bank account number and sign the IPO application form to authorize your bank to make payment in case of allotment. In case of non allotment the funds will remain in your bank account. As a business we don't give stock tips, and have not authorized anyone to trade on behalf of others. If you find anyone claiming to be part of Zerodha and offering such services, please <a href="https://support.zerodha.com/category/your-zerodha-account/your-profile/articles/how-do-i-place-a-complaint-at-zerodha" class="footer-link" target="_blank">create a ticket here</a>.
+                </p>
+            </div>
+
+
+            <!-- Graveyard links section at the bottom with various external links -->
+            <div class="footer-graveyard-links text-center">
+                <ul class="foot-list-links">
+                    <li><a class="foot-links" href="https://nseindia.com">NSE</a></li>
+                    <li><a class="foot-links" href="https://www.bseindia.com/">BSE</a></li>
+                    <li><a class="foot-links" href="https://www.mcxindia.com/">MCX</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/terms-and-conditions/">Terms &amp; conditions</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/policies-and-procedures/">Policies &amp; procedures</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/privacy-policy/">Privacy policy</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/disclosure/">Disclosure</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/investor-attention/">For investor's attention</a></li>
+                    <li><a class="foot-links" href="https://zerodha.com/tos/investor-charter/">Investor charter</a></li>
+                </ul>
+            </div>
+
+        </div>
+        
+    </footer>
+
 </body>
+
 </html>
